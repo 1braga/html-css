@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+         thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+         }
+         
+         tbody > tr:nth-child(even) {
+            background-color: lightslategrey;
+         }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+            </tr>
+            <tr>
+
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td><strong>0000</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis recusandae voluptatem cupiditate et perferendis. Facilis ea quod et pariatur ipsum reprehenderit iusto doloribus ullam, earum officiis modi cupiditate, dolorem est!Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum accusamus id eveniet nemo, placeat, tempore vitae possimus sit mollitia ex recusandae laborum reiciendis ducimus deserunt at quas perspiciatis error nisi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo saepe autem atque non voluptas, voluptatem animi sit possimus quam, quasi consequatur ad iure nostrum velit, accusantium aliquid enim explicabo ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui eius dolor laudantium incidunt magni. Non repudiandae necessitatibus rem, repellat dolorum optio repellendus sint, quisquam obcaecati quo consequuntur provident quis ea.
+    Eveniet ipsa sed, temporibus voluptatibus corporis sequi commodi harum quasi exercitationem illo repudiandae voluptas non magni nam molestias aut laudantium veniam cumque necessitatibus aliquam velit ab sit? Adipisci, reprehenderit aspernatur!
+    Enim voluptatem quam ea quis quas amet, ad consequuntur! Similique velit praesentium nulla voluptates, ab odio impedit aliquam iste sit nam nesciunt unde sunt omnis assumenda exercitationem? Eius, itaque necessitatibus!
+    Porro temporibus magnam saepe quibusdam dolore laborum, veniam nisi aperiam tempora voluptates asperiores, quo in! Temporibus autem corporis veniam nesciunt doloribus, consectetur mollitia explicabo quaerat ipsa quae voluptatem molestias non.
+    Perspiciatis nam iusto accusantium magnam aliquam maxime, minima molestiae tempore quo nesciunt dicta facere aperiam obcaecati qui iste, odio quod delectus similique soluta officiis? Beatae ex quas possimus veritatis alias!
+    Accusamus tenetur nemo dignissimos ipsam enim qui, blanditiis modi, aspernatur voluptatum necessitatibus sit ratione delectus! Voluptates commodi accusantium, a eius non, temporibus eaque, reiciendis enim eveniet error minima dolore cum?
+    Odit in similique repudiandae laudantium inventore, culpa nobis, accusantium ipsam cumque corrupti dolorem reiciendis. Eveniet architecto dicta quidem repellendus quod ullam impedit culpa incidunt velit pariatur, laudantium eaque tenetur delectus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi id quisquam ullam maiores non natus corporis dolores! Soluta facere inventore quis quos, perspiciatis nulla ab iste sapiente quam eius veritatis.
+    Nulla sequi fugiat pariatur perferendis excepturi accusantium accusamus, doloremque eum aperiam porro? Incidunt reprehenderit debitis voluptate natus quo cupiditate sapiente quos ratione sunt, exercitationem explicabo ipsa, delectus dignissimos quaerat ullam?
+    Distinctio assumenda saepe dolorum placeat aut repudiandae. Animi in id velit deserunt iusto dolores sequi sit. Enim at necessitatibus velit. Nobis assumenda enim nam tempore vitae doloremque earum in libero.
+    Minima accusamus fugit laudantium blanditiis illum autem officia repellendus. Repudiandae, consequuntur a voluptas quas placeat voluptate sunt rem in recusandae, cumque, ratione suscipit excepturi saepe nisi eaque ea amet dolore!
+    Explicabo ullam facere nobis nemo hic! A esse aspernatur culpa nulla rerum odit libero recusandae ipsa fugiat alias reprehenderit sit labore distinctio magnam itaque expedita, repellat tenetur quam temporibus laboriosam!
+    Cupiditate corrupti magnam quaerat error distinctio vel alias perferendis. Quas, deleniti minus! Tenetur esse eum soluta sed. Esse, iure omnis fuga distinctio asperiores nesciunt. Ea quidem porro modi natus quo.
+    Molestiae, laboriosam at iste excepturi optio voluptas eveniet, quidem dolorum odit saepe unde facilis, consectetur impedit perferendis possimus corporis tenetur quam amet! Quidem vitae laborum nihil unde eius repellat rem.
+    Tempore explicabo repellat id, sunt velit deleniti vitae quo blanditiis aperiam illum assumenda! Quis ea et magnam nulla vero fugit voluptas voluptate. Corrupti corporis eveniet maiores amet, earum laudantium assumenda?
+    Aspernatur explicabo veniam repellat quaerat neque mollitia eos incidunt numquam quod laborum aut, ratione quis amet commodi voluptatem omnis reiciendis officiis iste eum libero quae! Quo modi assumenda iusto suscipit.</p>
+</body>
+</html>
